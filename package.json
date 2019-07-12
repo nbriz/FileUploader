@@ -7,5 +7,13 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Nick Briz <nbriz@brangerbriz.com>",
-  "license": "GPL-3.0"
+  "license": "GPL-3.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nbriz/FileUploader.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nbriz/FileUploader/issues"
+  },
+  "homepage": "https://github.com/nbriz/FileUploader#readme"
 }

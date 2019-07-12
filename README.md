@@ -4,6 +4,16 @@ this is one of those things i got tired of writing from scratch each time (&& di
 
 [![JavaScript Style Guide](https://cdn.rawgit.com/standard/standard/master/badge.svg)](https://github.com/standard/standard)
 
+## install
+
+Just download the `FileUploader.js` file and include client-side as a script tag, or alternatively u could install with npm, but keep in mind, this relies on the DOM and WebAPIs so it can't be used outside of a browser. i just added the package.json to make things a little easier for myself (avoid all that manual copy+paste) && instead just do:
+```
+$ npm install git+https://github.com/nbriz/FileUploader.git
+```
+```HTML
+<script src="node_modules/FileUploader/FileUploader.js"></script>
+```
+
 ## config options
 
 here's all the options it takes:
