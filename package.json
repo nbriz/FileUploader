@@ -1,0 +1,11 @@
+{
+  "name": "FileUploader",
+  "version": "1.0.0",
+  "description": "vanilla JS class for quickly handling file uploads via clicking on elements or drag and dropping onto elements.",
+  "main": "FileUploader.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nick Briz <nbriz@brangerbriz.com>",
+  "license": "GPL-3.0"
+}
