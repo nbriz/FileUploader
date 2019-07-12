@@ -2,6 +2,8 @@
 
 this is one of those things i got tired of writing from scratch each time (&& didn't want to use a library or larger framework for) so i wrote a little vanilla JS class to handle that. info/examples below. if u find a bug please open an issue :) PRs welcome.
 
+[![JavaScript Style Guide](https://cdn.rawgit.com/standard/standard/master/badge.svg)](https://github.com/standard/standard)
+
 ## config options
 
 here's all the options it takes:
