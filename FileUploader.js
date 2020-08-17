@@ -105,11 +105,11 @@ class FileUploader {
   }
 
   readFile (file) {
-    let maxBytes = (this.maxSize) ? this.maxSize * 1000 : Infinity
+    const maxBytes = (this.maxSize) ? this.maxSize * 1000 : Infinity
     if (typeof FileReader !== 'undefined' &&
       this.isAllowed(file.type) &&
       file.size <= maxBytes) {
-      let reader = new window.FileReader()
+      const reader = new window.FileReader()
       reader.onload = (e) => {
         this.handleFile(file.name, file.type, e.target.result)
       }
